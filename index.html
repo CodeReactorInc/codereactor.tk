@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loading...</title>
+        <script type="text/javascript">
+            var lang = navigator.language || navigator.userLanguage;
+            var languag = lang.split('-')[0];
+            var mobile = false;
+            switch(languag) {
+                case 'pt':
+                    if (mobile) {
+                        console.log("Pt and mobile");
+                    } else {
+                        console.log("Pt and not mobile");
+                    }
+                default:
+                    if (mobile) {
+                        console.log("En and mobile");
+                    } else {
+                        console.log("En and not mobile");
+                    }
+            }
+        </script>
+    </head>
+    <body>
+        Getting your language and if you are in mobile...<br />
+        We gonna redirect you to correct page!
+    </body>
+</html>
