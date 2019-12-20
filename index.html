@@ -3,6 +3,7 @@
     <head>
         <title>Loading...</title>
         <link rel="icon" href="https://codereactor.tk/images/loading.png" />
+        <link rel="stylesheet" href="https://codereactor/css/index.css" />
         <script type="text/javascript">
             var lang = navigator.language || navigator.userLanguage;
             var languag = lang.split('-')[0];
@@ -22,14 +23,19 @@
             }
             function diplayInfo() {
                 document.getElementById('mobile').innerHTML = mobile;
+                if (mobile) {
+                    document.getElementById('mobile').className = "true";
+                } else {
+                    document.getElementById('mobile').className = "false";
+                }
                 document.getElementById('lang').innerHTML = languag;
             }
         </script>
     </head>
-    <body onload="diplayInfo()">
-        Getting your language and if you are in mobile...<br />
-        We gonna redirect you to correct page! <br /> <br />
-        Is mobile: <a id="mobile"></a> <br />
-        Detected language: <a id="lang"></a>
+    <body onload="diplayInfo()" class="loading">
+        <a class="default">Getting your language and if you are in mobile...</a><br />
+        <a class="default">We gonna redirect you to correct page!</a><br /><br />
+        <a class="default">Is mobile: </a><a id="mobile"></a><br />
+        <a class="default">Your language: </a><a id="lang" class="default"></a>
     </body>
 </html>
