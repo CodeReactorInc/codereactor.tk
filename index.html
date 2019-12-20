@@ -6,8 +6,6 @@
             var lang = navigator.language || navigator.userLanguage;
             var languag = lang.split('-')[0];
             var mobile = navigator.userAgent.match(/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/g) !== null;
-            document.getElementById('mobile').innerHTML = mobile;
-            document.getElementById('lang').innerHTML = languag;
             if (languag === 'pt') {
                 if (mobile) {
                     console.log("Pt and mobile");
@@ -21,9 +19,13 @@
                     console.log("En and not mobile");
                 }
             }
+            function diplayInfo() {
+                document.getElementById('mobile').innerHTML = mobile;
+                document.getElementById('lang').innerHTML = languag;
+            }
         </script>
     </head>
-    <body>
+    <body onload="diplayInfo()">
         Getting your language and if you are in mobile...<br />
         We gonna redirect you to correct page! <br /> <br />
         Is mobile: <a id="mobile"></a> <br />
