@@ -5,7 +5,7 @@
         <script type="text/javascript">
             var lang = navigator.language || navigator.userLanguage;
             var languag = lang.split('-')[0];
-            var mobile = false;
+            var mobile = navigator.userAgent.match(/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/g) !== null;
             if (languag === 'pt') {
                 if (mobile) {
                     console.log("Pt and mobile");
