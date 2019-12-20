@@ -6,20 +6,18 @@
             var lang = navigator.language || navigator.userLanguage;
             var languag = lang.split('-')[0];
             var mobile = false;
-            switch(languag) {
-                case 'pt':
-                    if (mobile) {
-                        console.log("Pt and mobile");
-                    } else {
-                        console.log("Pt and not mobile");
-                    }
-                    break;
-                default:
-                    if (mobile) {
-                        console.log("En and mobile");
-                    } else {
-                        console.log("En and not mobile");
-                    }
+            if (languag === 'pt') {
+                if (mobile) {
+                    console.log("Pt and mobile");
+                } else {
+                    console.log("Pt and not mobile");
+                }
+            } else {
+                if (mobile) {
+                    console.log("En and mobile");
+                } else {
+                    console.log("En and not mobile");
+                }
             }
         </script>
     </head>
