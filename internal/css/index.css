@@ -37,7 +37,7 @@
 }
 
 .desktop #navbar a span {
-  height: min-content;
+  height: 10px;
 }
 
 .desktop #navbar a:hover {
