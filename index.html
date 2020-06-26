@@ -1,43 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CodeReactor Official Site</title>
+        <title>Code Reactor</title>
         <meta content="The official site from CodeReactor with all you need know about us!" name="description" />
         <meta content="index, follow" name="robots" />
-        <link rel="icon" href="https://cdn.codereactor.tk/images/codereactor/codereactor-square.jpeg" />
+        <link rel="icon" href="https://cdn.codereactor.tk/codereactor/square.ico" />
         <link rel="stylesheet" href="https://cdn.codereactor.tk/css/codereactor/index.css" />
-        <script type="text/javascript">
-            var lang = navigator.language || navigator.userLanguage;
-            var languag = lang.split('-')[0];
-            var mobile = navigator.userAgent.match(/Mobile|iP(hone|od|ad)|Android|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/g) !== null;
-            if (languag === 'pt') {
-                if (mobile) {
-                    console.log("Pt and mobile");
-                } else {
-                    window.location.href = "https://codereactor.tk/pt/mainpage.html";
-                }
-            } else {
-                if (mobile) {
-                    console.log("En and mobile");
-                } else {
-                    window.location.href = "https://codereactor.tk/en/mainpage.html";
-                }
-            }
-            function diplayInfo() {
-                document.getElementById('mobile').innerHTML = mobile;
-                if (mobile) {
-                    document.getElementById('mobile').className = "true";
-                } else {
-                    document.getElementById('mobile').className = "false";
-                }
-                document.getElementById('lang').innerHTML = languag;
-            }
-        </script>
     </head>
-    <body onload="diplayInfo()" class="loading">
-        <a class="default">Getting your language and if you are in mobile...</a><br />
-        <a class="default">We gonna redirect you to correct page!</a><br /><br />
-        <a class="default">Is mobile: </a><a id="mobile"></a><br />
-        <a class="default">Your language: </a><a id="lang" class="default"></a>
+    <body>
     </body>
 </html>
