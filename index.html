@@ -5,8 +5,19 @@
         <meta content="The official site from CodeReactor with all you need know about us!" name="description" />
         <meta content="index, follow" name="robots" />
         <link rel="icon" href="https://cdn.codereactor.tk/codereactor/square.ico" />
-        <link rel="stylesheet" href="https://cdn.codereactor.tk/css/codereactor/index.css" />
+        <link rel="stylesheet" href="https://codereactor.tk/internal/css/index.css" />
+        <script src="https://api.codereactor.tk/scripts/mobile-detection.js"></script>
+        <script>
+            function onload() {
+                if (isMobile()) {
+                    document.getElementById("main").classList.add("mobile");
+                } else {
+                    document.getElementById("main").classList.add("desktop");
+                }
+            }
+        </script>
     </head>
-    <body>
+    <body onload="onload()" class="theme" id="main">
+        <img src="https://cdn.codereactor.tk/codereactor/horizontal.png" />
     </body>
 </html>
