@@ -25,8 +25,17 @@
 
 .desktop #navbar a {
   height: 30px;
-  width: 160px;
-  text-align: center;
+  width: 230px;
+  align-content: center;
   text-decoration: none;
   color: #15ff00;
+}
+
+.desktop #navbar a:hover {
+  height: 30px;
+  width: 230px;
+  align-content: center;
+  background-color: #15ff00;
+  text-decoration: none;
+  color: #1c1c1c;
 }
