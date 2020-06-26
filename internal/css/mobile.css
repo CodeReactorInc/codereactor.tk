@@ -26,11 +26,11 @@
 .mobile #logo {
   margin-top: 1px;
   margin-bottom: 1px;
-  width: 100px;
+  width: 200px;
 }
 
 .mobile #navbar {
-  height: 70px;
+  height: 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -38,18 +38,18 @@
   border-bottom: #15ff00;
   border-top-style: solid;
   border-bottom-style: solid;
-  border-width: 3px;
+  border-width: 1px;
   border-radius: 2px;
   margin-bottom: 10px;
 }
 
 .mobile #navbar a {
-  height: 63px;
-  width: 150px;
+  height: 33px;
+  width: 70px;
   border-radius: 2px;
   text-decoration: none;
   color: #15ff00;
-  line-height: 63px;
+  line-height: 33px;
   text-align: center;
   font-size: 30px;
 }
@@ -67,6 +67,6 @@
 
 .mobile #navbar .noactive {
   border-left: #15ff00;
-  border-width: 3px;
+  border-width: 1px;
   border-left-style: solid;
 }
