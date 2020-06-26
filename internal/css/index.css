@@ -7,3 +7,7 @@
 .desktop #logo {
   width: 300px;
 }
+
+.desktop #navbar {
+  height: 10px;
+}
