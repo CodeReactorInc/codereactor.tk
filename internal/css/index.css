@@ -33,6 +33,10 @@
   color: #15ff00;
 }
 
+.desktop #navbar a span {
+  height: fit-content;
+}
+
 .desktop #navbar a:hover {
   background-color: #15ff00;
   color: #1c1c1c;
