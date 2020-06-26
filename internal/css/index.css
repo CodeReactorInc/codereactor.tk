@@ -34,10 +34,14 @@
   justify-content: space-around;
   text-decoration: none;
   color: #15ff00;
+  line-height: 200px;
+  text-align: center;
 }
 
 .desktop #navbar a span {
-  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 .desktop #navbar a:hover {
