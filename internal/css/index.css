@@ -28,7 +28,7 @@
   width: 220px;
   border-radius: 2px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-decoration: none;
   color: #15ff00;
 }
