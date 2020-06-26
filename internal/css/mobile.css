@@ -6,21 +6,21 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.desktop #content {
+.mobile #content {
   text-align: center;
-  font-size: 10px;
+  font-size: 80px;
 }
 
-.desktop #content a {
+.mobile #content a {
   color: #15ff00;
   text-decoration: none;
 }
 
-.desktop #content a:visited {
+.mobile #content a:visited {
   color: #00a2ff;
 }
 
-.desktop #content a:hover {
+.mobile #content a:hover {
   color: #8400ff;
 }
 
