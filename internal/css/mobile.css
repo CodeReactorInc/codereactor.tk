@@ -6,6 +6,24 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.desktop #content {
+  text-align: center;
+  font-size: 10px;
+}
+
+.desktop #content a {
+  color: #15ff00;
+  text-decoration: none;
+}
+
+.desktop #content a:visited {
+  color: #00a2ff;
+}
+
+.desktop #content a:hover {
+  color: #8400ff;
+}
+
 .mobile #logo {
   margin-top: 10px;
   margin-bottom: 10px;
