@@ -30,11 +30,9 @@
   height: 33px;
   width: 240px;
   border-radius: 2px;
-  display: flex;
-  justify-content: space-around;
   text-decoration: none;
   color: #15ff00;
-  line-height: 200px;
+  line-height: 33px;
   text-align: center;
 }
 
