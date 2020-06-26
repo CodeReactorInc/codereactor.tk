@@ -1,0 +1,54 @@
+.mobile {
+  background-color: #1c1c1c;
+  color: #fffff2;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.mobile #logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.mobile #navbar {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: #15ff00;
+  border-bottom: #15ff00;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 3px;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+
+.mobile #navbar a {
+  height: 33px;
+  width: 240px;
+  border-radius: 2px;
+  text-decoration: none;
+  color: #15ff00;
+  line-height: 33px;
+  text-align: center;
+}
+
+.mobile #navbar a span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.mobile #navbar a:hover {
+  background-color: #15ff00;
+  color: #1c1c1c;
+}
+
+.mobile #navbar .noactive {
+  border-left: #15ff00;
+  border-width: 3px;
+  border-left-style: solid;
+}
