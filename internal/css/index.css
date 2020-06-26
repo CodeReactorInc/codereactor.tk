@@ -26,6 +26,7 @@
 .desktop #navbar a {
   height: 30px;
   width: 190px;
+  display: inline-block;
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
