@@ -21,7 +21,7 @@
   border-bottom: #15ff00;
   border-top-style: solid;
   border-bottom-style: solid;
-  border-width: 3px;
+  border-width: 6px;
   border-radius: 2px;
   margin-bottom: 30px;
 }
@@ -32,8 +32,9 @@
   border-radius: 2px;
   text-decoration: none;
   color: #15ff00;
-  line-height: 33px;
+  line-height: 63px;
   text-align: center;
+  font-size: large;
 }
 
 .mobile #navbar a span {
@@ -49,6 +50,6 @@
 
 .mobile #navbar .noactive {
   border-left: #15ff00;
-  border-width: 3px;
+  border-width: 6px;
   border-left-style: solid;
 }
