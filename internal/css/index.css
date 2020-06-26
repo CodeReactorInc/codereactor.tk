@@ -26,9 +26,8 @@
 .desktop #navbar a {
   height: 30px;
   width: 190px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   color: #15ff00;
 }
@@ -36,9 +35,16 @@
 .desktop #navbar a:hover {
   height: 30px;
   width: 190px;
-  text-align: center;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
   background-color: #15ff00;
   text-decoration: none;
   color: #1c1c1c;
+}
+
+.desktop #navbar .noactive {
+  border-left: #15ff00;
+  border-width: 3px;
+  border-left-style: solid;
+  border-radius: 2px;
 }
