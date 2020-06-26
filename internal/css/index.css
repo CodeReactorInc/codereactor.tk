@@ -11,9 +11,10 @@
 .desktop #navbar {
   height: 40px;
   display: flex;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   justify-content: space-around;
+  align-items: center;
   border-top: #15ff00;
   border-bottom: #15ff00;
   border-top-style: solid;
@@ -24,5 +25,8 @@
 
 .desktop #navbar a {
   height: 30px;
-  width: 60px;
+  width: 160px;
+  text-align: center;
+  text-decoration: none;
+  color: #15ff00;
 }
