@@ -7,6 +7,8 @@
 }
 
 .desktop #logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 300px;
 }
 
@@ -21,6 +23,7 @@
   border-bottom-style: solid;
   border-width: 3px;
   border-radius: 2px;
+  margin-bottom: 10px;
 }
 
 .desktop #navbar a {
@@ -34,7 +37,7 @@
 }
 
 .desktop #navbar a span {
-  height: fit-content;
+  height: min-content;
 }
 
 .desktop #navbar a:hover {
