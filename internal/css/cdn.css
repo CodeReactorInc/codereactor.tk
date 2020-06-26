@@ -1,0 +1,57 @@
+body {
+  background-color: #1c1c1c;
+  color: #fffff2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.desktop {
+  padding: 20px;
+}
+
+.desktop #logo {
+  width: 400px;
+  margin-bottom: -15px;
+}
+
+.desktop p {
+  padding-top: 30px;
+  border-top: #000000;
+  border-top-style: solid;
+  border-width: 3px;
+  border-radius: 2px;
+  font-size: 25px;
+}
+
+.desktop .error {
+  color: #ff0000;
+}
+
+.desktop .link {
+  color: #15ff00;
+}
+
+.mobile {
+  padding: 20px;
+}
+
+.mobile #logo {
+  width: 500px;
+  margin-bottom: -15px;
+}
+
+.mobile p {
+  padding-top: 30px;
+  border-top: #000000;
+  border-top-style: solid;
+  border-width: 6px;
+  border-radius: 2px;
+  font-size: 43px;
+}
+
+.mobile .error {
+  color: #ff0000;
+}
+
+.mobile .link {
+  color: #15ff00;
+}

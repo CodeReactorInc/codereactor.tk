@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="https://cdn.codereactor.tk/codereactor/square.ico" />
+        <link rel="stylesheet" href="https://codereactor.tk/internal/css/cdn.css" />
+        <meta content="noindex, nofollow" name="robots" />
+        <meta content="Official CDN from Code Reactor containing your files" name="description" />
+        <title>CodeReactor - CDN</title>
+        <script src="https://api.codereactor.tk/scripts/mobile-detection.js"></script>
+        <script>
+            function onload() {
+                if (isMobile()) {
+                    document.getElementById("main").className = "mobile";
+                } else {
+                    document.getElementById("main").className = "desktop";
+                }
+            }
+        </script>
+    </head>
+    <body onload="onload()">
+        <div class="placeholder" id="main">
+            <img id="logo" src="https://cdn.codereactor.tk/codereactor/horizontal.png" />
+            <p>
+                <a class="error">404 Not Found</a> <br /><br />
+                This link don't have a image or a archive, see the data structure in your <a class="link" href="https://github.com/CodeReactorInc/cdn.codereactor.tk">GitHub</a>.
+            </p>
+        </div>
+    </body>
+</html>
