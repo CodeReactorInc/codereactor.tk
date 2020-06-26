@@ -26,7 +26,7 @@
 .mobile #logo {
   margin-top: 1px;
   margin-bottom: 1px;
-  width: 200px;
+  width: 150px;
 }
 
 .mobile #navbar {
@@ -38,20 +38,20 @@
   border-bottom: #15ff00;
   border-top-style: solid;
   border-bottom-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-radius: 2px;
   margin-bottom: 10px;
 }
 
 .mobile #navbar a {
   height: 33px;
-  width: 70px;
+  width: 50px;
   border-radius: 2px;
   text-decoration: none;
   color: #15ff00;
   line-height: 33px;
   text-align: center;
-  font-size: 30px;
+  font-size: 10px;
 }
 
 .mobile #navbar a span {
@@ -67,6 +67,6 @@
 
 .mobile #navbar .noactive {
   border-left: #15ff00;
-  border-width: 1px;
+  border-width: 2px;
   border-left-style: solid;
 }
