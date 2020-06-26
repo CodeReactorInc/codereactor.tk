@@ -9,7 +9,7 @@
 }
 
 .desktop #navbar {
-  height: 50px;
+  height: 40px;
   display: flex;
   margin-left: 20px;
   margin-right: 20px;
@@ -23,5 +23,6 @@
 }
 
 .desktop #navbar a {
-  height: 10px;
+  height: 30px;
+  width: 60px;
 }
