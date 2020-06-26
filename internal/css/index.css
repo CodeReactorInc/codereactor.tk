@@ -9,8 +9,10 @@
 }
 
 .desktop #navbar {
-  height: 10px;
+  height: 30px;
   display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
   justify-content: space-around;
   border-top: #15ff00;
   border-bottom: #15ff00;
