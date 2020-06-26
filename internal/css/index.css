@@ -23,7 +23,7 @@
   border-bottom-style: solid;
   border-width: 3px;
   border-radius: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .desktop #navbar a {
@@ -37,7 +37,7 @@
 }
 
 .desktop #navbar a span {
-  height: 10px;
+  height: 20px;
 }
 
 .desktop #navbar a:hover {
