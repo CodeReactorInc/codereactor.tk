@@ -3,3 +3,7 @@
   color: #fffff2;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.desktop #logo {
+  width: 400px;
+}
