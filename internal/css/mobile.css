@@ -1,14 +1,13 @@
 .mobile {
   background-color: #1c1c1c;
   color: #fffff2;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 .mobile #content {
   text-align: center;
-  font-size: 80px;
 }
 
 .mobile #content a {
@@ -25,9 +24,9 @@
 }
 
 .mobile #logo {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 400px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  width: 100px;
 }
 
 .mobile #navbar {
@@ -39,9 +38,9 @@
   border-bottom: #15ff00;
   border-top-style: solid;
   border-bottom-style: solid;
-  border-width: 6px;
+  border-width: 3px;
   border-radius: 2px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .mobile #navbar a {
@@ -68,6 +67,6 @@
 
 .mobile #navbar .noactive {
   border-left: #15ff00;
-  border-width: 6px;
+  border-width: 3px;
   border-left-style: solid;
 }
