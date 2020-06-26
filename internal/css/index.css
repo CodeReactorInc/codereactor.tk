@@ -1,7 +1,9 @@
-.theme {
+.desktop {
   background-color: #1c1c1c;
   color: #fffff2;
-  font-family: Helvetica, Arial, sans-serif
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .desktop #logo {
@@ -11,8 +13,6 @@
 .desktop #navbar {
   height: 40px;
   display: flex;
-  margin-left: 50px;
-  margin-right: 50px;
   justify-content: space-around;
   align-items: center;
   border-top: #15ff00;
@@ -24,8 +24,8 @@
 }
 
 .desktop #navbar a {
-  height: 35px;
-  width: 220px;
+  height: 33px;
+  width: 240px;
   border-radius: 2px;
   display: flex;
   justify-content: space-around;
