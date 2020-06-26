@@ -10,4 +10,5 @@
 
 .desktop #navbar {
   height: 10px;
+  display: block;
 }
