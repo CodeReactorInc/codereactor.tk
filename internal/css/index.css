@@ -10,5 +10,6 @@
 
 .desktop #navbar {
   height: 10px;
-  display: block;
+  display: flex;
+  justify-content: space-around;
 }
