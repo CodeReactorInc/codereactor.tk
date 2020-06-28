@@ -24,9 +24,7 @@
 }
 
 .mobile #logo {
-  margin-top: 1px;
-  margin-bottom: 1px;
-  width: 280px;
+  width: 200px;
 }
 
 .mobile #navbar {
@@ -45,13 +43,13 @@
 
 .mobile #navbar a {
   height: 33px;
-  width: 50px;
+  width: 63px;
   border-radius: 2px;
   text-decoration: none;
   color: #15ff00;
   line-height: 33px;
   text-align: center;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .mobile #navbar a span {
