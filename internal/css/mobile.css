@@ -23,6 +23,11 @@
   color: #8400ff;
 }
 
+.mobile #content #error {
+  font-size: 20px;
+  color: #ff0000;
+}
+
 .mobile #logo {
   width: 160px;
 }

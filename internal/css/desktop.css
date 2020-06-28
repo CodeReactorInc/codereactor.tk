@@ -23,6 +23,11 @@
   color: #8400ff;
 }
 
+.desktop #content #error {
+  font-size: 20px;
+  color: #ff0000;
+}
+
 .desktop #logo {
   margin-top: 10px;
   margin-bottom: 10px;
