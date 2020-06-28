@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Code Reactor - Not found</title>
+        <meta content="The official website from Code Reactor with everything you need know about us and our work!" name="description" />
+        <meta content="all" name="robots" />
+        <meta content="Code Reactor - Invalid page" property="og:title" />
+        <meta content="website" property="og:title" />
+        <meta content="https://cdn.codereactor.tk/codereactor/square.png" property="og:image" />
+        <meta content="The official website from Code Reactor with everything you need know about us and our work!" property="og:description" />
+        <meta content="Code Reactor" property="og:site_name" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta content="#15ff00" name="theme-color" />
+
         <link rel="icon" href="https://cdn.codereactor.tk/codereactor/square.ico" />
-        <link rel="stylesheet" href="https://codereactor.tk/internal/css/cdn.css" />
-        <meta content="noindex, nofollow" name="robots" />
-        <meta content="Official CDN from Code Reactor containing your files" name="description" />
-        <title>CodeReactor - CDN</title>
+        <link rel="stylesheet" href="https://codereactor.tk/internal/css/desktop.css" />
+        <link rel="stylesheet" href="https://codereactor.tk/internal/css/mobile.css" />
         <script src="https://api.codereactor.tk/scripts/mobile-detection.js"></script>
         <script>
             function onload() {
                 if (isMobile()) {
-                    document.getElementById("main").className = "mobile";
+                //if (false) {
+                    document.getElementById("main").classList.add("mobile");
                 } else {
-                    document.getElementById("main").className = "desktop";
+                    document.getElementById("main").classList.add("desktop");
                 }
             }
         </script>
     </head>
-    <body onload="onload()">
-        <div class="placeholder" id="main">
-            <img id="logo" src="https://cdn.codereactor.tk/codereactor/horizontal.png" />
+    <body onload="onload()" id="main">
+        <img  src="https://cdn.codereactor.tk/codereactor/horizontal.png" id="logo" />
+        <div id="navbar">
+            <a href="https://codereactor.tk/"><span>Home</span></a>
+            <a class="noactive" href="https://codereactor.tk/projects"><span> Projects</span></a>
+            <a class="noactive" href="https://codereactor.tk/support"><span> Support</span></a>
+            <a class="noactive" href="https://codereactor.tk/social"><span> Social</span></a>
+            <a class="noactive" href="https://codereactor.tk/about"><span> About</span></a>
+        </div>
+        <div id="content">
+            <span id="error">404 Not found</span>
             <p>
-                <a class="error">404 Not Found</a> <br /><br />
-                This link don't have a image or a archive, see the data structure in your <a class="link" href="https://github.com/CodeReactorInc/cdn.codereactor.tk">GitHub</a>.
+                
             </p>
         </div>
     </body>
