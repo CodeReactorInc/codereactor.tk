@@ -9,32 +9,12 @@
       <priority>0.9</priority>
    </url>
    <url>
-      <loc>https://codereactor.tk/about/kitsuneidk</loc>
+      <loc>https://codereactor.tk/about/natsumiuix</loc>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://codereactor.tk/projects</loc>
       <priority>0.9</priority>
-   </url>
-   <url>
-      <loc>https://codereactor.tk/projects/darkfrontier</loc>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://codereactor.tk/projects/fml</loc>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://codereactor.tk/projects/fml/sirius</loc>
-      <priority>0.7</priority>
-   </url>
-   <url>
-      <loc>https://codereactor.tk/projects/fml/workout</loc>
-      <priority>0.7</priority>
-   </url>
-   <url>
-      <loc>https://codereactor.tk/projects/nuclear-shell</loc>
-      <priority>0.8</priority>
    </url>
    <url>
       <loc>https://codereactor.tk/social</loc>

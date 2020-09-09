@@ -1,23 +1,23 @@
 .mobile {
-  background-color: #1c1c1c;
-  color: #fffff2;
-  margin-left: 10px;
-  margin-right: 10px;
+  background-color: #141414;
+  color: #ffffea;
+  margin-left: 2%;
+  margin-right: 2%;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 .mobile #content {
   text-align: center;
-  font-size: 14px;
+  font-size: 87%;
 }
 
 .mobile #content a {
-  color: #15ff00;
+  color: #25ff25;
   text-decoration: none;
 }
 
 .mobile #content a:visited {
-  color: #00a2ff;
+  color: #009cff;
 }
 
 .mobile #content a:hover {
@@ -30,7 +30,8 @@
 }
 
 .mobile #logo {
-  width: 160px;
+  width: 37%;
+  margin-bottom: 1.4%;
 }
 
 .mobile #navbar {
@@ -38,24 +39,24 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-top: #15ff00;
-  border-bottom: #15ff00;
+  border-top: #25ff25;
+  border-bottom: #25ff25;
   border-top-style: solid;
   border-bottom-style: solid;
   border-width: 2px;
   border-radius: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 5%;
 }
 
 .mobile #navbar a {
-  height: 33px;
+  height: 36px;
   width: 19%;
   border-radius: 2px;
   text-decoration: none;
-  color: #15ff00;
-  line-height: 33px;
+  color: #25ff25;
+  line-height: 32px;
   text-align: center;
-  font-size: 13px;
+  font-size: 80%;
 }
 
 .mobile #navbar a span {
@@ -65,12 +66,12 @@
 }
 
 .mobile #navbar a:hover {
-  background-color: #15ff00;
-  color: #1c1c1c;
+  background-color: #25ff25;
+  color: #141414;
 }
 
 .mobile #navbar .noactive {
-  border-left: #15ff00;
+  border-left: #25ff25;
   border-width: 2px;
   border-left-style: solid;
 }
