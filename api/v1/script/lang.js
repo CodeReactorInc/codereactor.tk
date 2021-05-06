@@ -6,9 +6,9 @@ function getBasicLangCode() {
     }
 }
 
-function autoLoadLang(forceEnglish) {
-    var langnode = document.createElement("script");
-    if (forceEnglish === true) langnode.src = "https://codereactor.tk/internal/lang/en.js";
-    else langnode.src = "https://codereactor.tk/internal/lang/" + getBasicLangCode() + ".js";
+function loadLang(forceEnglish) {
+    let langnode = document.createElement("script");
+    if (forceEnglish === true) langnode.src = "https://codereactor.tk/api/v1/lang/en.js";
+    else langnode.src = "https://codereactor.tk/api/v1/lang/" + getBasicLangCode() + ".js";
     document.querySelector("head").appendChild(langnode);
 }
