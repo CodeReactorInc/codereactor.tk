@@ -1,4 +1,4 @@
-var THEME = window.localStorage.getItem("theme") | "dark";
+var THEME = window.localStorage.getItem("theme") || "dark";
 
 function loadTheme(isMobile) {
     let platform = (isMobile) ? "mobile" : "mobile";
