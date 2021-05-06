@@ -15,7 +15,7 @@ function loadLang(forceEnglish) {
 
     let langnode = document.createElement("script");
     langnode.id = "loadedlang";
-    if (forceEnglish === true) langnode.src = "https://codereactor.tk/api/v1/lang/en.js";
-    else langnode.src = "https://codereactor.tk/api/v1/lang/" + getBasicLangCode() + ".js";
+    if (forceEnglish === true) langnode.src = "https://www.codereactor.tk/api/v1/lang/en.js";
+    else langnode.src = "https://www.codereactor.tk/api/v1/lang/" + getBasicLangCode() + ".js";
     document.querySelector("head").appendChild(langnode);
 }
