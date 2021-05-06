@@ -1,7 +1,7 @@
 var THEME = window.localStorage.getItem("theme") || "dark";
 
 function loadTheme(isMobile) {
-    let platform = (isMobile) ? "mobile" : "mobile";
+    let platform = (isMobile) ? "mobile" : "desktop";
 
     let oldthemenode = document.getElementById("themecss");
     if (oldthemenode != null) {
