@@ -13,7 +13,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#25ff25",
-    "background_color": "#25ff25",
+    "theme_color": "#03d903",
+    "background_color": "#03d903",
+    "start_url": "https://codereactor.tk/",
     "display": "standalone"
 }
